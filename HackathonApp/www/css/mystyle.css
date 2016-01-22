@@ -1,0 +1,20 @@
+
+.img-center
+    {margin:0 auto;}
+
+.btn-margin {
+    margin-bottom:20px;
+}
+
+.perfect-padding {
+    padding:10px;
+}
+
+.perfect-padding2 {
+    padding:10px;
+}
+
+.footer-position{
+    position:fixed;
+    bottom:0;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+    <title>Pelaser Tracer</title>
+</head>
+<body style="background-color:#373a3c">
+<header class="jumbotron" style="background-color:#c12e2a">
+
+    <!-- Jumbotron header -->
+
+    <div class="container text-xs-center text-sm-right" >
+        <div class="row row-header">
+            <div class="col-xs-12 col-sm-4 " style="background-color:#333333;margin-bottom: 30px ">
+                <img src="img/logoPelaser.png" class="img-responsive">
+
+            </div>
+            <div class="col-xs-12 col-sm-6" style="align-content: center; color: whitesmoke;">
+                <p>Item Name: </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-pull-2" style="align-content: center; color: whitesmoke;" >
+                <h3 id="itemNameHeader">Steel Plate 24x10</h3>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-sm-pull-2" style="align-content: center; color: whitesmoke;">
+                <h6 id="palletNumberTag">Pallet 40</h6>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-sm-pull-2" style="align-content: center; color: whitesmoke;">
+                <h6 id="areaTag">Waiting Area 2</h6>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</header>
+
+<div class="container">
+
+    <div class="col-xs-12" style="background-color:#333333;">
+        <img src="img/sampledrawing.png" class="img-responsive">
+    </div>
+
+        <div class="row"  id="itembox">
+
+            <a><btn class="col-xs-12 btn-margin btn-info btn " style= " background-color:#d9534f; margin-top:10px;" onclick="showForm(1)">
+                231321431
+            </btn></a>
+
+            <a><div class="col-xs-12 btn-margin btn-info btn"  style="background-color:#d9534f" onclick="showForm(2)">
+                100/100
+            </div></a>
+
+           <a> <div class="col-xs-12 btn-margin btn-info btn " style="background-color:#d9534f" onclick="showForm(3)">
+                25502
+            </div></a>
+
+            <a> <div class="col-xs-12 btn-margin btn-info btn " style="background-color:#d9534f" onclick="showForm(4)">
+                Pallet 45
+                </div></a>
+
+
+
+        </div>
+
+    <div class=" col-xs-12">
+        <label style="color:whitesmoke" for="comment">Comments:</label>
+        <textarea class="form-control" rows="10" id="comment"></textarea>
+    </div>
+</div>
+<br>
+<footer>
+    <p style="color:floralwhite; font-size:10px;"> Powered by Hackathon </p>
+</footer>
+
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script>
+    fuction getItems(){
+
+    }
+</script>
+
+<script>
+
+    var deletePrevious = false;
+    function showForm(formNumber){
+
+        if(deletePrevious = true){
+            document.getElementById('itembox').removeChild( document.getElementById('itembox').lastChild);
+        }
+
+    switch (formNumber){
+
+
+        case 1:
+            var newdiv = document.createElement('div');
+            newdiv.innerHTML = "<form role='form'> " +
+                                "<div class='form-group'> <label for='newItemNumber' style='color:whitesmoke'>Enter new Item Number: </label>" +
+                            "<input type='email' class='form-control' id='newItemNumber'>" +
+                            "<button class='btn btn-default col-xs-10 col-xs-push-1' style='margin-top:10px'>Apply</button>"+
+                            "<button class='btn btn-warning  col-xs-10 col-xs-push-1' style='margin-top:10px;margin-bottom:10px'>Cancel</button>"
+
+
+            document.getElementById('itembox').appendChild(newdiv);
+
+                deletePrevious = true;
+            break;
+
+        case 2:
+            var newdiv = document.createElement('div');
+            newdiv.innerHTML = "<form role='form'> " +
+                    "<div class='form-group'> <label for='newItemNumber' style='color:whitesmoke'>Enter number of processed items: </label>" +
+                    "<input type='email' class='form-control' id='newItemNumber'>" +
+                    "<button class='btn btn-default col-xs-10 col-xs-push-1' style='margin-top:10px'>Apply</button>"+
+                    "<button class='btn btn-warning  col-xs-10 col-xs-push-1' style='margin-top:10px;margin-bottom:10px'>Cancel</button>"
+
+
+            document.getElementById('itembox').appendChild(newdiv);
+
+            deletePrevious = true;
+            break;
+
+
+        case 3:
+            var newdiv = document.createElement('div');
+            newdiv.innerHTML = "<form role='form'> " +
+                    "<div class='form-group'> <label for='newItemNumber' style='color:whitesmoke'>Change order number: </label>" +
+                    "<input type='email' class='form-control' id='newItemNumber'>" +
+                    "<button class='btn btn-default col-xs-10 col-xs-push-1' style='margin-top:10px'>Apply</button>"+
+                    "<button class='btn btn-warning  col-xs-10 col-xs-push-1' style='margin-top:10px;margin-bottom:10px'>Cancel</button>"
+
+
+            document.getElementById('itembox').appendChild(newdiv);
+
+            deletePrevious = true;
+            break;
+
+
+        case 4:
+            var newdiv = document.createElement('div');
+            newdiv.innerHTML = "<form role='form'> " +
+                    "<div class='form-group'> <label for='newItemNumber' style='color:whitesmoke'>Change pallet number: </label>" +
+                    "<input class='form-control' id='newItemNumber'>" +
+                    "<div class='form-group'> <label for='newPalletPosition' style='color:whitesmoke'>Change pallet position: </label>" +
+                    "<div class='radio'>"+
+                    "<label style='color:whitesmoke'><input type='radio' name='optradio'>Waiting Area 1</label></div>" +
+                    "<div class='radio'>"+
+                    "<label  style='color:whitesmoke'><input type='radio' name='optradio'>Waiting for Completion</label></div>" +
+                    "<div class='radio'>"+
+                    "<label  style='color:whitesmoke'><input type='radio' name='optradio'>Ready for Shipping</label></div>" +
+                    "<button class='btn btn-default col-xs-10 col-xs-push-1' style='margin-top:10px'>Apply</button>"+
+                    "<button class='btn btn-warning  col-xs-10 col-xs-push-1' style='margin-top:10px;margin-bottom:10px'>Cancel</button>"
+
+
+            document.getElementById('itembox').appendChild(newdiv);
+
+            deletePrevious = true;
+            break;
+    }
+
+    }
+
+    function removeLastForm(){
+        document.getElementById('itembox').removeChild( document.getElementById('itembox').lastChild);
+    }
+
+</script>
+</html>

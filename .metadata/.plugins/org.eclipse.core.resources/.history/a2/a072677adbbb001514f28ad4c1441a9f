@@ -1,0 +1,6 @@
+package org.logistic.pelasar.fi.model;
+
+public class Pallet {
+	private long id;
+	private String name;
+}

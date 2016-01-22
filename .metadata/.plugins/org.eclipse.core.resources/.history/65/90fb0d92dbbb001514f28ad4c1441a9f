@@ -1,0 +1,20 @@
+package org.logistic.pelasar.fi.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@Entity
+@Table(name="BUFFER")
+@XmlRootElement(name="buffer")
+@XmlType(propOrder={"id","name"})
+public class Pallet {
+	
+	@Column (name="ID")
+	private long id;
+	@Column (name="NAME")
+	private String name;
+	
+}

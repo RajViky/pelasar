@@ -1,0 +1,6 @@
+package org.logistic.pelasar.fi.util;
+
+public class HibernateUtil {
+
+
+}

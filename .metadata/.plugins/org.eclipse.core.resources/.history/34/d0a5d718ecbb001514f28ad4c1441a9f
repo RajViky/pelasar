@@ -1,0 +1,30 @@
+package org.logistic.pelasar.fi.service;
+
+import org.logistic.pelasar.fi.dao.OrderDao;
+import org.logistic.pelasar.fi.model.Order;
+
+public class OrderService {
+	
+	private OrderDao orderDao = new OrderDao();
+	
+	public OrderService(){
+	}
+	
+	public Order addCnc(Order order) {
+		orderDao.saveOrder(order);		
+		return orderDao.getCncById(order.getId());
+	}
+	
+	public Cnc updateCnc(Cnc cnc){
+		if(cnc.getId() <= 0){
+			return null;
+		}
+		orderDao.updateCnc(cnc);
+		return cnc;
+	}
+	
+	public void removeCnc(long id)	{
+		orderDao.removeCnc(id);
+	}
+}
+}

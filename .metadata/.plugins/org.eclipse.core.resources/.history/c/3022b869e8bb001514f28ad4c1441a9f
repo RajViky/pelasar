@@ -1,0 +1,43 @@
+package org.logistic.pelasar.fi.dao;
+import java.util.Calendar;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.logistic.pelasar.fi.model.Order;
+import org.logistic.pelasar.fi.util.HibernateUtil;
+
+public class OrderDao {
+	
+	public	SessionFactory sessionFactory = HibernateUtil.getSessionFactory(); 
+	
+	public OrderDao()	{
+		
+	}
+	public Order getOrderById(long id) {
+		
+		Order order = new Buffer();
+		Session session = null;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+			order = (Buffer) session.createQuery("from Buffer b where b.id = :ID").setParameter("ID", id).uniqueResult();
+			session.getTransaction().commit();
+		}
+		
+		catch(Exception ex){
+			if(session != null){
+				session.getTransaction().rollback();
+			}
+		}
+		
+		finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+		return order;
+	}
+	
+}

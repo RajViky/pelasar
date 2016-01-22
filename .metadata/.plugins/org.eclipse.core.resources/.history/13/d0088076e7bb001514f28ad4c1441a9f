@@ -1,0 +1,12 @@
+package org.logistic.pelasar.fi.dao;
+import java.util.Calendar;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.logistic.pelasar.fi.util.HibernateUtil;
+
+public class OrderDao {
+	
+	public	SessionFactory sessionFactory = HibernateUtil.getSessionFactory(); 
+}

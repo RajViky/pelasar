@@ -1,0 +1,159 @@
+package org.logistic.pelasar.fi.dao;
+
+package org.logistic.pelasar.fi.dao;
+import java.util.Calendar;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.logistic.pelasar.fi.model.Pallet;
+import org.logistic.pelasar.fi.util.HibernateUtil;
+
+public class PalletDao {
+	
+	public	SessionFactory sessionFactory = HibernateUtil.getSessionFactory(); 
+	
+	public PalletDao()	{
+		
+	}
+	public Pallet getOrderById(long id) {
+		
+		Pallet pallet = new Pallet();
+		Session session = null;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+		//	order = (Order) session.createQuery("from Order o where o.id = :ID").setParameter("ID", id).uniqueResult();
+			session.getTransaction().commit();
+		}
+		
+		catch(Exception ex){
+			if(session != null){
+				session.getTransaction().rollback();
+			}
+		}
+		
+		finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+		return pallet;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Pallet> getAllOrders() {
+		
+		List<Pallet> pallets = null;
+		Session session = null;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+			pallets = session.createQuery("from pallet p").list();
+			session.getTransaction().commit();
+		}
+		
+		catch(Exception ex){
+			if(session != null){
+				session.getTransaction().rollback();
+			}
+		}
+		
+		finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+		return pallets;
+	}
+	
+	public boolean saveOrder(Order order) {
+		
+		order.setDelivery(Calendar.getInstance());
+		Session session = null;
+		boolean hasErrors = false;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+			session.save(order);
+			session.getTransaction().commit();
+			
+	    }
+	 	
+		catch(Exception ex){
+			if(session != null){
+				session.getTransaction().rollback();
+			}
+			hasErrors = true;
+		}
+		
+		finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+		return hasErrors;
+	}
+	
+	public boolean updateOrder(Order order) {
+		
+		order.setDelivery(Calendar.getInstance());
+		Session session = null;
+		boolean hasErrors = false;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+			session.update(order);
+			session.getTransaction().commit();
+			
+	    }
+		
+	 	catch(Exception ex){
+			if(session != null){
+				session.getTransaction().rollback();
+			}
+			hasErrors = true;
+		}
+		
+		finally {
+			if (session !=null) {
+				session.close();
+			}
+		}
+		return hasErrors;
+	}
+	
+	public boolean removeOrder(long id) {
+		
+		Order order = new Order();
+		order.setId(id);
+		Session session = null;
+		boolean hasErrors = false;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+			session.delete(order);
+			session.getTransaction().commit();
+			
+	    }
+	 	
+		catch(Exception ex){
+			if(session != null){
+				session.getTransaction().rollback();
+			}
+			hasErrors = true;
+		}
+		
+		finally {
+			if (session !=null) {
+				session.close();
+			}
+		}
+		return hasErrors;
+	}
+}

@@ -1,0 +1,94 @@
+package org.logistic.pelasar.fi.model;
+
+import java.util.Calendar;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@Entity
+@Table(name="Order")
+@XmlRootElement(name="order")
+@XmlType(propOrder={"id","customerName","delivery","orderId","productSize","productQuantity","remarks","productId"})
+
+public class Order {
+	//public static final long MAX_PRODUCTS = 25;
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	
+	@Column(name="ID")
+	private long id;
+	@Column(name="CUSTOMERNAME")
+	private String customerName;
+	@Column(name="DELIVERY")
+	private Calendar delivery;
+/*	@Column(name="ORDERID")
+	private long orderId;
+	@Column(name="PRODUCTSIZE")
+	private String productSize;
+	@Column(name="PRODUCTQUANTITY")
+	private long productQuantity;
+	@Column(name="REMARKS")
+	private String remarks;
+	@Column(name="PRODUCTID")
+	private long[] productId;*/
+	
+	public Order() {
+		
+	}
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public Calendar getDelivery() {
+		return delivery;
+	}
+	public void setDelivery(Calendar delivery) {
+		this.delivery = delivery;
+	}
+	/*
+	public long getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(long orderId) {
+		this.orderId = orderId;
+	}
+	public String getProductSize() {
+		return productSize;
+	}
+	public void setProductSize(String productSize) {
+		this.productSize = productSize;
+	}
+	public long getProductQuantity() {
+		return productQuantity;
+	}
+	public void setProductQuantity(long productQuantity) {
+		this.productQuantity = productQuantity;
+	}
+	public String getRemarks() {
+		return remarks;
+	}
+	public void setRemarks(String remarks) {
+		this.remarks = remarks;
+	}
+	public long[] getProductId() {
+		return productId;
+	}
+	public void setProductIds(long[] productId) {
+		this.productId = productId;
+	} */
+}

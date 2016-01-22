@@ -1,0 +1,5 @@
+package org.logistic.pelasar.fi.service;
+
+public class PalletService {
+
+}

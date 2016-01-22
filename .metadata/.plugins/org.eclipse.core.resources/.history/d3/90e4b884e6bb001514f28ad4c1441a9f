@@ -1,0 +1,52 @@
+package org.logistic.pelasar.fi.resource;
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/buffer")
+@Consumes(MediaType.APPLICATION_JSON)
+@Produces(MediaType.APPLICATION_JSON)
+public class OrderResource {
+	
+	private OrderDao orderDao = new OrderDao();
+	OrderService orderService = new OrderService();
+	
+	@GET
+	@Path("/{bufferId}")
+	public Buffer getBufferById(@PathParam("bufferId") long id) {
+		return bufferDao.getBufferById(id);
+	}
+	
+	@GET
+	@Path("/all")
+	public List<Buffer> getBuffers() {
+		return bufferDao.getAllBuffers();
+	}
+	
+	@POST
+	public Buffer addBuffer(Buffer buffer) {
+		return bufferService.addBuffer(buffer);
+	}
+	
+	@PUT
+	@Path("/{bufferId}")
+	public Buffer updateBuffer(@PathParam("bufferId") long id,Buffer buffer) {
+		buffer.setId(id);
+		return bufferService.updateBuffer(buffer);
+	}
+	
+	@DELETE
+	@Path("/{bufferId}")
+	public void deleteBuffer(@PathParam("bufferId") long id) {
+		bufferService.removeBuffer(id);
+	}
+}

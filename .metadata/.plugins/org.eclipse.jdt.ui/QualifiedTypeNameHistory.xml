@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.ElementCollection"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.logistic.pelasar.fi.util.HibernateUtil"/>
+<fullyQualifiedTypeName name="org.logistic.pelasar.fi.model.Order"/>
+<fullyQualifiedTypeName name="org.logistic.pelasar.fi.dao.OrderDao"/>
+<fullyQualifiedTypeName name="org.logistic.pelasar.fi.service.OrderService"/>
+<fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="org.logistic.pelasar.fi.model.Product"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+</qualifiedTypeNameHistroy>

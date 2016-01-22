@@ -1,0 +1,30 @@
+package org.logistic.pelasar.fi.service;
+
+import org.logistic.pelasar.fi.dao.OrderDao;
+import org.logistic.pelasar.fi.model.Order;
+
+public class OrderService {
+	
+	private OrderDao orderDao = new OrderDao();
+	
+	public OrderService(){
+	}
+	
+	public Order addOrder(Order order) {
+		orderDao.saveOrder(order);		
+		return orderDao.getOrderById(order.getId());
+	}
+	
+	public Order updateOrder(Order order){
+		if(order.getId() <= 0){
+			return null;
+		}
+		orderDao.updateOrder(order);
+		return order;
+	}
+	
+	public void removeOrder(long id)	{
+		orderDao.removeOrder(id);
+	}
+}
+

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Rajesh/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/dom4j-1.6.1.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/jpa/hibernate-entitymanager-4.2.3.Final.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/hibernate-core-4.2.3.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/osgi/hibernate-osgi-4.2.3.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/glassfish/extras/glassfish-embedded-web/3.1.1/glassfish-embedded-web-3.1.1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/appserv-tags.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/c-1_0-rt.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/c-1_0.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/c.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/fmt-1_0-rt.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/fmt-1_0.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/fmt.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/fn.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/html_basic.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/jsf_core.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/jspcachtags.tld" project="logistic"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/mojarra_ext.taglib.xml" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/mojarra_ext.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/permittedtaglibs.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/scriptfree.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/sql-1_0-rt.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/sql-1_0.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/sql.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/taglib.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/x-1_0-rt.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/x-1_0.tld" project="logistic"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-glassfish-embedded-web-3.1.1.jar/meta-inf/x.tld" project="logistic"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/Rajesh/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/jboss-logging-3.1.0.GA.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/hibernate/hibernate-core/4.2.3.Final/hibernate-core-4.2.3.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/com/sun/jersey/jersey-servlet/1.19/jersey-servlet-1.19.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jersey-servlet-1.19.jar/meta-inf/taglib.tld" project="logistic"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/Rajesh/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/javassist-3.15.0-GA.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/postgresql-9.4-1201.jdbc41.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/antlr-2.7.7.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/com/sun/jersey/jersey-server/1.19/jersey-server-1.19.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/osgi/org.osgi.core-4.3.1.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/Rajesh/Downloads/hibernate-release-4.2.3.Final/lib/required/hibernate-commons-annotations-4.0.2.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar"/>
+  <path value="C:/Users/Rajesh/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="20" name="%0" offset="3522" path="%1"/>
+   <linked-el length="20" name="%0" offset="1104" path="%1"/>
+   <linked-el length="20" name="%2" offset="3522" path="%1"/>
+   <linked-el length="20" name="%2" offset="1104" path="%1"/>
+   <linked-el length="17" name="%3" offset="2944" path="%1"/>
+   <linked-el length="17" name="%3" offset="2563" path="%1"/>
+   <linked-el length="17" name="%3" offset="2376" path="%1"/>
+   <linked-el length="17" name="%4" offset="2944" path="%1"/>
+   <linked-el length="17" name="%4" offset="2563" path="%1"/>
+   <linked-el length="17" name="%4" offset="2376" path="%1"/>
+   <linked-el length="48" name="%5" offset="1256" path="%1"/>
+   <linked-el length="18" name="%6" offset="1651" path="%1"/>
+   <linked-el length="48" name="%6" offset="1256" path="%1"/>
+   <linked-el length="48" name="%7" offset="1256" path="%1"/>
+   <linked-el length="18" name="%8" offset="1651" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="glassfish" value="%0"/>
+  <alias path="glassfish.version" value="%2"/>
+  <alias path="jersey.version" value="%3"/>
+  <alias path="jersey" value="%4"/>
+  <alias path="project.build.finalName" value="%5"/>
+  <alias path="project" value="%6"/>
+  <alias path="/logistic/pom.xml" value="%1"/>
+  <alias path="project.build" value="%7"/>
+  <alias path="project.version" value="%8"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

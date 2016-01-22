@@ -1,0 +1,1027 @@
+!SESSION 2016-01-15 21:28:05.890 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2016-01-15 21:28:41.236
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-15 21:29:21.184
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-15 21:29:21.191
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Rajesh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2016-01-15 21:29:25.237
+!MESSAGE WinHttp.DetectAutoProxyConfigUrl for wpad failed with error 'The Proxy Auto-configuration URL was not found.
+' #12180.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-15 21:37:15.946
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-15 21:38:53.932
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ceb25e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5457123a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e5d2ad6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d8a5ec7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fcaa4db,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26edfa34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f6dbff5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a4f15bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a3c79f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d6ccad7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6db0f5fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b98c80c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77c668ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6546f3f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e5ff1d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cbce551,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@649ca10,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.673
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@420c730b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@608b74f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.674
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1007c1c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d5b2c1e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b9a38f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@102dff25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.674
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53cb68dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c897417,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 21:42:35.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72fedd85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62109320,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 21:58:31.726
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/logistic/pom.xml)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 21:58:31.869
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.017
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.041
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.060
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.077
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.085
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.093
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.101
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.109
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.116
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.122
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.128
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.135
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.140
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-01-15 21:58:32.147
+!MESSAGE C:\Users\Rajesh\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 21:58:33.213
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 21:58:34.334
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 21:58:52.273
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM E:\pelaser\logistic\pom.xml: end tag name </project> must match start tag name <dependencies> from line 47 (position: TEXT seen ...</properties>\n</project>... @94:11)  @ line 94, column 11
+ for project  at E:\pelaser\logistic\pom.xml
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-15 21:59:38.413
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2016-01-15 22:01:30.645 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2016-01-15 22:01:35.555
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-15 22:01:42.583
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-15 22:01:42.596
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Rajesh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 22:01:43.562
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 22:01:44.587
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.core.net 4 0 2016-01-15 22:01:45.925
+!MESSAGE WinHttp.DetectAutoProxyConfigUrl for wpad failed with error 'The Proxy Auto-configuration URL was not found.
+' #12180.
+
+!ENTRY org.eclipse.core.net 4 0 2016-01-15 22:01:45.947
+!MESSAGE WinHttp.DetectAutoProxyConfigUrl for wpad failed with error 'The Proxy Auto-configuration URL was not found.
+' #12180.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-01-15 22:02:58.168
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM E:\pelaser\logistic\pom.xml: end tag name </project> must match start tag name <dependencies> from line 47 (position: TEXT seen ...</properties>\n</project>... @94:11)  @ line 94, column 11
+ for project  at E:\pelaser\logistic\pom.xml
+
+!ENTRY org.eclipse.ui 4 0 2016-01-15 22:07:58.011
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DetachedDropAgent.drop(DetachedDropAgent.java:60)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DragAgent.dragFinished(DragAgent.java:159)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.PartDragAgent.dragFinished(PartDragAgent.java:111)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.finishDrag(DnDManager.java:276)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag(DnDManager.java:243)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager$1.dragDetected(DnDManager.java:87)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 2 0 2016-01-15 22:08:00.004
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.004
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fac8b24,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33fc92d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.004
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d066064,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@485a5c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.004
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@547c94ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5955568,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.004
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c56cb6d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17e323fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.004
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57a89e68,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@261c5d1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9f3d1b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@391aedcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53fd4420,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46c92d27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40b5dbe9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@575ca45f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@648c80cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39c65ffc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@665e18d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23d0a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1134a934,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e2739de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68a7bc12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ceb0619,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17e725fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-15 22:08:00.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57598bc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1043c493,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:00.930
+!MESSAGE Error creating SQL Model Connection connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:00.939
+!MESSAGE Error creating PostgreSQL JDBC Connection Factory connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2016-01-15 22:12:01.012
+!MESSAGE Could not connect to New PostgreSQL.
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:01.012
+!MESSAGE Error creating SQL Model Connection connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:01.012
+!MESSAGE Error creating PostgreSQL JDBC Connection Factory connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:09.464
+!MESSAGE Error creating PostgreSQL JDBC Connection Factory connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:09.478
+!MESSAGE Error creating SQL Model Connection connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2016-01-15 22:12:09.544
+!MESSAGE Could not connect to New PostgreSQL.
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:09.545
+!MESSAGE Error creating SQL Model Connection connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2016-01-15 22:12:09.545
+!MESSAGE Error creating PostgreSQL JDBC Connection Factory connection to New PostgreSQL. (Error: FATAL: role "pelasar" does not exist)
+!STACK 0
+org.postgresql.util.PSQLException: FATAL: role "pelasar" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:684)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:199)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:127)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:41)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.createConnection(PostgreSQLJDBCConnection.java:87)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLJDBCConnection.<init>(PostgreSQLJDBCConnection.java:47)
+	at org.eclipse.datatools.enablement.internal.postgresql.PostgreSQLConnectionFactory.createConnection(PostgreSQLConnectionFactory.java:51)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2016-01-16 02:13:21.213
+!MESSAGE Failed to build or refresh the JAX-RS metamodel
+!STACK 1
+Java Model Exception: Java Model Status [Resource [in [Working copy] OrderResource.java [in org.logistic.pelasar.fi.resource [in src/main/java [in logistic]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.jboss.tools.ws.jaxrs.core.jdt.JdtUtils.findDeclaringNode(JdtUtils.java:481)
+	at org.jboss.tools.ws.jaxrs.core.jdt.JdtUtils.resolveAllAnnotations(JdtUtils.java:373)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsParameterAggregator$Builder.buildInMetamodel(JaxrsParameterAggregator.java:126)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsElementFactory.internalCreateElements(JaxrsElementFactory.java:137)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsElementFactory.createElements(JaxrsElementFactory.java:75)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsMetamodel.processJavaElementChange(JaxrsMetamodel.java:420)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsMetamodel.processJavaElementChange(JaxrsMetamodel.java:392)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.builder.JavaElementChangedBuildJob.run(JavaElementChangedBuildJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-01-16 02:13:21.214
+!MESSAGE Resource [in [Working copy] OrderResource.java [in org.logistic.pelasar.fi.resource [in src/main/java [in logistic]]]] does not exist
+
+!ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2016-01-16 02:13:21.333
+!MESSAGE Failed to build or refresh the JAX-RS metamodel
+!STACK 1
+Java Model Exception: Java Model Status [Resource [in [Working copy] OrderResource.java [in org.logistic.pelasar.fi.resource [in src/main/java [in logistic]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:218)
+	at org.jboss.tools.ws.jaxrs.core.jdt.JdtUtils.findDeclaringNode(JdtUtils.java:481)
+	at org.jboss.tools.ws.jaxrs.core.jdt.JdtUtils.resolveAllAnnotations(JdtUtils.java:373)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsParameterAggregator$Builder.buildInMetamodel(JaxrsParameterAggregator.java:126)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsElementFactory.internalCreateElements(JaxrsElementFactory.java:137)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsElementFactory.createElements(JaxrsElementFactory.java:75)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsMetamodel.processJavaElementChange(JaxrsMetamodel.java:420)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsMetamodel.processJavaElementChange(JaxrsMetamodel.java:392)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.builder.JavaElementChangedBuildJob.run(JavaElementChangedBuildJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-01-16 02:13:21.333
+!MESSAGE Resource [in [Working copy] OrderResource.java [in org.logistic.pelasar.fi.resource [in src/main/java [in logistic]]]] does not exist
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:10:58.143
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:11:03.437
+!MESSAGE Several ports (8005, 8080) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:12:58.717
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:14:09.223
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:15:22.590
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:48:56.882
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:50:37.706
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:53:56.726
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 03:53:58.647
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 04:00:28.125
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 04:01:17.816
+!MESSAGE Port 8005 required by Tomcat v7.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 04:04:47.111
+!MESSAGE Port 8005 required by Tomcat v7.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 09:43:50.113
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 09:44:20.647
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 09:45:22.831
+!MESSAGE Several ports (8005, 8080) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 10:54:07.158
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 10:55:59.745
+!MESSAGE Several ports (8005, 8080) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 11:19:33.147
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 11:22:22.723
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 11:28:24.664
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 11:30:29.301
+!MESSAGE Several ports (8005, 8080) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 12:06:07.989
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 13:02:52.844
+!MESSAGE Port 8005 required by Tomcat v7.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-01-16 14:04:20.552
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).

@@ -1,0 +1,6 @@
+package org.logistic.pelasar.fi.dao;
+
+public class OrderDao {
+	
+	public	SessionFactory sessionFactory = HibernateUtil.getSessionFactory(); 
+}
